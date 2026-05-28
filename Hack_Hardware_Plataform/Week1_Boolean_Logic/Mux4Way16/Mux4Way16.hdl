@@ -3,7 +3,6 @@
 // by Nisan and Schocken, MIT Press.
 // File name: projects/01/Mux4Way16.hdl
 
-// Modificado por Samuel Gadiel de Ávila.
 
 CHIP Mux4Way16 {
     IN a[16], b[16], c[16], d[16], sel[2];
