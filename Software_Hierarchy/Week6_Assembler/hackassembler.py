@@ -1,4 +1,3 @@
-## Criado por Samuel Gadiel de Ávila
 
 INSTRUCTION_WIDTH = 16
 OUTPUT_EXT = '.hack'
