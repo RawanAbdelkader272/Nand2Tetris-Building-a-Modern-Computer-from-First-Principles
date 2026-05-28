@@ -3,7 +3,6 @@
 // by Nisan and Schocken, MIT Press.
 // File name: projects/03/a/RAM64.hdl
 
-// Modificado por Samuel Gadiel de Ávila
 
 CHIP RAM64 {
     IN in[16], load, address[6];
