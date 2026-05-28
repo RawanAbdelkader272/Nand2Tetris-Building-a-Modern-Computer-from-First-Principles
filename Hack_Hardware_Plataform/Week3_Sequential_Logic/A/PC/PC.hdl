@@ -3,7 +3,6 @@
 // by Nisan and Schocken, MIT Press.
 // File name: projects/03/a/PC.hdl
 
-// Modificado por Samuel Gadiel de Ávila
 
 CHIP PC {
     IN in[16],load,inc,reset;
