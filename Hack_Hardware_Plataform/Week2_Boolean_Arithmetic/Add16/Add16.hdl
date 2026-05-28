@@ -3,7 +3,6 @@
 // by Nisan and Schocken, MIT Press.
 // File name: projects/02/Add16.hdl
 
-// Modificado por Samuel Gadiel de Ávila.
 
 CHIP Add16 {
     IN a[16], b[16];
