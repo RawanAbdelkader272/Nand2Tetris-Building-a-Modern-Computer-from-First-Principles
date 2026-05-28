@@ -161,7 +161,7 @@ python3 Week7_VM_I/vm_translator.py path/to/program.vm
 ---
 ---
 
-## 📚 Resources
+## Resources
 
 - 🌐 [Nand2Tetris Official Website](https://www.nand2tetris.org/) — course materials, software, and project specs
 - 📖 [The Elements of Computing Systems (Book)](https://mitpress.mit.edu/9780262539807/the-elements-of-computing-systems/) — the companion textbook by Noam Nisan & Shimon Schocken
@@ -174,15 +174,3 @@ python3 Week7_VM_I/vm_translator.py path/to/program.vm
 - 📄 [Hack Assembly Language Reference](https://www.nand2tetris.org/project04) — full instruction set reference
 - 📄 [Jack Language Specification](https://www.nand2tetris.org/project09) — syntax and semantics guide
 
----
-## Resources
-
-| Resource | Link |
-|----------|------|
-| Official website | [nand2tetris.org](https://www.nand2tetris.org/) |
-| Companion textbook | [The Elements of Computing Systems](https://mitpress.mit.edu/9780262539807/) |
-| Coursera Part I | [Build a Modern Computer — Hardware](https://www.coursera.org/learn/build-a-computer) |
-| Coursera Part II | [Build a Modern Computer — Software](https://www.coursera.org/learn/nand2tetris2) |
-| HDL Survival Guide | [nand2tetris.org/software](https://www.nand2tetris.org/software) |
-| Hack Assembly Reference | [nand2tetris.org/project04](https://www.nand2tetris.org/project04) |
-| Jack Language Spec | [nand2tetris.org/project09](https://www.nand2tetris.org/project09) |
