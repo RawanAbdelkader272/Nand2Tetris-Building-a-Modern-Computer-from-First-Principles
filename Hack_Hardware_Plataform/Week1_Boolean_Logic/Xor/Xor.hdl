@@ -3,7 +3,7 @@
 // by Nisan and Schocken, MIT Press.
 // File name: projects/01/Xor.hdl
 
-// Modificado por Samuel Gadiel de Ávila.
+
 
 CHIP Xor {
     IN a, b;
