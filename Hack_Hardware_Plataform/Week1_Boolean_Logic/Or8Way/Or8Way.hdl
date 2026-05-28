@@ -3,8 +3,6 @@
 // by Nisan and Schocken, MIT Press.
 // File name: projects/01/Or8Way.hdl
 
-// Modificado por Samuel Gadiel de Ávila.
-
 CHIP Or8Way {
     IN in[8];
     OUT out;
