@@ -3,7 +3,6 @@
 // by Nisan and Schocken, MIT Press.
 // File name: projects/04/Mult.asm
 
-// Modificado por Samuel Gadiel de Ávila
 
 // Put your code here.
 
