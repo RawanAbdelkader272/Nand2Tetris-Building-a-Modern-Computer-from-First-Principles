@@ -3,7 +3,6 @@
 // by Nisan and Schocken, MIT Press.
 // File name: projects/03/b/RAM16K.hdl
 
-// Modificado por Samuel Gadiel de Ávila
 
 CHIP RAM16K {
     IN in[16], load, address[14];
