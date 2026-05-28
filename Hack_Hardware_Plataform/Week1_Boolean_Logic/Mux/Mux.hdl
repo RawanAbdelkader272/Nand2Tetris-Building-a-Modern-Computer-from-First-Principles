@@ -3,7 +3,6 @@
 // by Nisan and Schocken, MIT Press.
 // File name: projects/01/Mux.hdl
 
-//Modificado por Samuel Gadiel de Ávila.
 
 CHIP Mux {
     IN a, b, sel;
