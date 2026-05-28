@@ -3,7 +3,6 @@
 // by Nisan and Schocken, MIT Press.
 // File name: projects/02/FullAdder.hdl
 
-// Modificado por Samuel Gadiel de Ávila.
 
 CHIP FullAdder {
     IN a, b, c;  // 1 Bit de entrada
