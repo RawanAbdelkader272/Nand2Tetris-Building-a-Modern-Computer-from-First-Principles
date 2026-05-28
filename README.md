@@ -72,46 +72,43 @@ nand2tetris/
 The project is split into two major parts that build on each other:
 
 **Part 1 — Hardware (`Hack_Hardware_Platform/`, Weeks 1–5)**
-You design chips using a simple Hardware Description Language (HDL). Starting from a single primitive NAND gate, you build progressively more complex components — logic gates, an Arithmetic Logic Unit (ALU), memory chips, and finally a fully working 16-bit computer called the **Hack computer**. Nothing is "given" to you; every chip is built on top of the previous one.
+I design chips using a simple Hardware Description Language (HDL). Starting from a single primitive NAND gate, I build progressively more complex components — logic gates, an Arithmetic Logic Unit (ALU), memory chips, and finally a fully working 16-bit computer called the **Hack computer**. Nothing is "given" to you; every chip is built on top of the previous one.
 
 **Part 2 — Software (`Software_Hierarchy/`, Weeks 6–12)**
-You write software that targets the Hack hardware you built. This includes an assembler that translates symbolic assembly code into binary, a virtual machine translator, a compiler for a high-level language called **Jack** (similar to Java), and finally a minimal operating system. By the end, the entire stack — from transistors to Tetris — is something you built yourself.
+I write software that targets the Hack hardware I built. This includes an assembler that translates symbolic assembly code into binary, a virtual machine translator, a compiler for a high-level language called **Jack** (similar to Java), and finally a minimal operating system. By the end, the entire stack — from transistors to Tetris — is something I built yourself.
 
 ---
 
 ### ⚙️ Hardware Projects — Weeks 1–5
 
-Each week's folder contains `.hdl` files (your chip implementations) and `.tst`/`.cmp` files (test scripts and expected outputs provided by the course).
+Each week's folder contains `.hdl` files (chip implementations) and `.tst`/`.cmp` files (test scripts and expected outputs provided by the course).
 
 **The workflow for every hardware project:**
 
-1. **Read the project spec** — Each week has a PDF specification on the [course website](https://www.nand2tetris.org/course) that describes exactly which chips to build, their truth tables, and the HDL interface.
-2. **Write your HDL implementation** — Open the `.hdl` stub file in your text editor and implement the chip logic using the parts available to you (e.g., you can only use NAND gates in Week 1; by Week 3, you can use all the chips from Weeks 1 and 2).
-3. **Test in the Hardware Simulator** — Load your `.hdl` file, then load the `.tst` test script and click **Run**. The simulator compares your chip's output against the `.cmp` file automatically.
-4. **Debug if needed** — If a test fails, the simulator highlights the failing row. You can also step through the simulation one clock cycle at a time using the **Step** button.
+ **Read the project spec** — Each week has a PDF specification on the [course website](https://www.nand2tetris.org/course) that describes exactly which chips to build, their truth tables, and the HDL interface.
 
 **What each week builds:**
 
-- **Week 1 — Boolean Logic:** You implement 15 fundamental chips — NOT, AND, OR, XOR, MUX, DMUX, and their multi-bit/multi-way variants — all derived from a single NAND primitive.
-- **Week 2 — Boolean Arithmetic:** You build adder chips and the 16-bit **Arithmetic Logic Unit (ALU)**, the heart of any CPU. The ALU can compute 18 different functions on two 16-bit inputs.
-- **Week 3 — Sequential Logic:** Using a built-in D flip-flop, you build memory — from a single 1-bit register all the way up to a 16K-word RAM chip — plus the **Program Counter**, which drives instruction sequencing.
-- **Week 4 — Machine Language:** You write programs directly in the **Hack assembly language**. This week is about understanding how the machine "thinks" before you build it. Programs include a multiplication routine and a screen-filling graphics demo.
-- **Week 5 — Computer Architecture:** You assemble all previous chips into the complete **Hack computer** — a CPU, a memory unit (combining RAM and screen/keyboard I/O), and a top-level `Computer.hdl` chip that ties everything together.
+- **Week 1 — Boolean Logic:** I implement 15 fundamental chips — NOT, AND, OR, XOR, MUX, DMUX, and their multi-bit/multi-way variants — all derived from a single NAND primitive.
+- **Week 2 — Boolean Arithmetic:** I build adder chips and the 16-bit **Arithmetic Logic Unit (ALU)**, the heart of any CPU. The ALU can compute 18 different functions on two 16-bit inputs.
+- **Week 3 — Sequential Logic:** Using a built-in D flip-flop, I build memory — from a single 1-bit register all the way up to a 16K-word RAM chip — plus the **Program Counter**, which drives instruction sequencing.
+- **Week 4 — Machine Language:** I write programs directly in the **Hack assembly language**. This week is about understanding how the machine "thinks" before you build it. Programs include a multiplication routine and a screen-filling graphics demo.
+- **Week 5 — Computer Architecture:** I assemble all previous chips into the complete **Hack computer** — a CPU, a memory unit (combining RAM and screen/keyboard I/O), and a top-level `Computer.hdl` chip that ties everything together.
 
 ---
 
 ### 💾 Software Projects — Weeks 6–12
 
-The software half of the course is implemented in a general-purpose programming language of your choice (Python, Java, C++, etc.). Each project produces a tool that translates one layer of abstraction into the next.
+The software half of the course is implemented in a general-purpose programming language of student choice **(I choose Python)**. Each project produces a tool that translates one layer of abstraction into the next.
 
 **What each week builds:**
 
 - **Week 6 — Assembler:** Translates symbolic Hack assembly (`.asm`) into binary machine code (`.hack`). Handles symbols, labels, and predefined registers. This is your first "real" language tool.
 - **Week 7 & 8 — VM Translator:** Translates a stack-based intermediate bytecode (`.vm` files, similar to Java bytecode) into Hack assembly. Week 7 covers arithmetic and memory access commands; Week 8 adds branching, function calls, and the call stack.
-- **Week 9 — High-Level Language:** A creative week — you write any program you like in **Jack**, a simple object-based language. This gives you a feel for the language before you build the compiler that processes it.
-- **Week 10 — Compiler I (Syntax Analysis):** You build a tokenizer (lexer) and a recursive-descent parser for Jack. The parser outputs an XML parse tree that makes the program's grammatical structure explicit.
-- **Week 11 — Compiler II (Code Generation):** You extend the parser into a full compiler, generating `.vm` bytecode from Jack source. This involves a symbol table for variable scoping and code generation for expressions, statements, objects, and arrays.
-- **Week 12 — Operating System:** You implement the Jack OS standard library in Jack itself — 8 classes covering math (multiply, divide, square root), memory management (heap allocator), screen drawing, keyboard input, and string/output handling.
+- **Week 9 — High-Level Language:** A creative week — I write any program you like in **Jack**, a simple object-based language. This gives me a feel for the language before you build the compiler that processes it.
+- **Week 10 — Compiler I (Syntax Analysis):** Built a tokenizer (lexer) and a recursive-descent parser for Jack. The parser outputs an XML parse tree that makes the program's grammatical structure explicit.
+- **Week 11 — Compiler II (Code Generation):** Extend the parser into a full compiler, generating `.vm` bytecode from Jack source. This involves a symbol table for variable scoping and code generation for expressions, statements, objects, and arrays.
+- **Week 12 — Operating System:** Implement the Jack OS standard library in Jack itself — 8 classes covering math (multiply, divide, square root), memory management (heap allocator), screen drawing, keyboard input, and string/output handling.
 
 **The translation chain, end to end:**
 
