@@ -3,7 +3,7 @@
 // by Nisan and Schocken, MIT Press.
 // File name: projects/03/a/Register.hdl
 
-// Modificado por Samuel Gadiel de Ávila
+
 
 CHIP Register {
     IN in[16], load;
