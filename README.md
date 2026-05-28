@@ -2,7 +2,7 @@
 
 > *"What I cannot create, I do not understand."* 
 
-A complete computer built from scratch — starting from a single NAND gate and ending with a functioning CPU, memory system, assembler, compiler, and operating system. This project follows the **Nand to Tetris** course by Noam Nisan and Shimon Schocken (*The Elements of Computing Systems*), one of the finest computer science courses ever made.
+A complete computer built from scratch — starting from a single NAND gate and ending with a functioning CPU, memory system, assembler, compiler, and operating system. This project follows the **Nand to Tetris** course by Noam Nisan and Shimon Schocken (*The Elements of Computing Systems*).
 
 **Courses:** [Part I — Hardware](https://www.coursera.org/learn/build-a-computer) · [Part II — Software](https://www.coursera.org/learn/nand2tetris2)  
 **Book:** [The Elements of Computing Systems](https://mitpress.mit.edu/9780262539807/the-elements-of-computing-systems/)
