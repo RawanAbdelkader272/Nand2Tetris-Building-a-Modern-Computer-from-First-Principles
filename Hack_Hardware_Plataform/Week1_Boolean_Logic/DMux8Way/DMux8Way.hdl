@@ -3,7 +3,6 @@
 // by Nisan and Schocken, MIT Press.
 // File name: projects/01/DMux8Way.hdl
 
-// Modificado por Samuel Gadiel de Ávila.
 
 CHIP DMux8Way {
     IN in, sel[3];
