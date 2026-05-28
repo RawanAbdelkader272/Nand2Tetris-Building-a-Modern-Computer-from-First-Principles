@@ -135,15 +135,7 @@ All tools are in the `tools/` directory. On macOS/Linux use the `.sh` scripts; o
 ./tools/JackCompiler.sh path/to/MyProgram/
 ```
 
-For the Python software projects (Weeks 6–12), each week's folder contains a runnable script. Example:
-
-```bash
-# Week 6 — Assembler
-python3 Week6_Assembler/assembler.py path/to/program.asm
-
-# Week 7/8 — VM Translator
-python3 Week7_VM_I/vm_translator.py path/to/program.vm
-```
+For the Python software projects (Weeks 6–12), each week's folder contains a runnable script. 
 
 ---
 
@@ -158,7 +150,6 @@ python3 Week7_VM_I/vm_translator.py path/to/program.vm
 - **Code generation** and memory management
 - **Operating system** services and abstraction layers
 
----
 ---
 
 ## Resources
